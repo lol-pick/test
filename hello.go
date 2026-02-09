@@ -27,7 +27,7 @@ func (r *Rope) getChar(pos int) byte {
 		if p <= cur.left.len {
 			cur = cur.left
 		} else {
-			p -= cur.left.len
+
 			cur = cur.right
 		}
 	}
